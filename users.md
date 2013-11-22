@@ -11,6 +11,7 @@ Retrieves the details of any user that the token has access to. Supply a user ID
 the corresponding user profile information. You may pass 'me' instead of a user id to get information for
 the current token.
 
+### Request
 <dl>
   <dt>id</dt>
   <dd>required</dd>
@@ -22,6 +23,7 @@ the current token.
 Updates the specified user by setting the values of the parameters passed. Any parameters not provided 
 will be left unchanged, unrecognised parameters will result in the request returning an error response.
 
+### Request
 <dl>
   <dt>id</dt>
   <dd>required</dd>
@@ -53,6 +55,7 @@ This endpoint is not currently accessible by clients.
 Returns a list of all users in the current organization. The users are returned in sorted alphabetical order 
 by default.
 
+### Request
 <dl>
   <dt>page</dt>
   <dd>optional</dd>
@@ -66,6 +69,7 @@ by default.
 You can 'ping' another user to get their attention. This is usually used when the other user is set to busy, 
 but could be used at other times. The client name and image will appear in the ping notification.
 
+### Request
 <dl>
   <dt>id</dt>
   <dd>required</dd>
