@@ -6,5 +6,10 @@ resource-oriented URLs and to use HTTP response codes to indicate API errors. We
 built-in HTTP features, like HTTP authentication and HTTP verbs, which can be understood 
 by off-the-shelf HTTP clients.
 
+
+## Endpoints
+All API requests are made to https://api.sqwiggle.com/ and all requests are served over HTTPS.
+
+## Formats
 At this time the only response format support is JSON and as such is the default format returned by 
 the API.
