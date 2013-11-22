@@ -79,3 +79,24 @@ A user object represents a single person on your organizations team.
         <td>URL to a static avatar for the user</td>
     </tr>
 </table>
+
+## Example
+```
+{   
+    "id": 1234,
+    "role": "user",
+    "name": "John Doe",
+    "media": "video",
+    "status": "available",
+    "message": "",
+    "email": "john.doe@gmail.com",
+    "confirmed": true,
+    "time_zone": "America/New_York",
+    "time_zone_offset": 5.0,
+    "created_at": "2013-01-01T03:18:33Z",
+    "last_connected_at": "2013-07-20T20:10:33Z",
+    "last_active_at": "2013-07-20T20:18:33Z",
+    "last_still": "http://sqwiggle-stills.amazonaws.com/images/still.jpg",
+    "avatar": "http://sqwiggle-photos.amazonaws.com/images/avatar.jpg"
+}
+```
