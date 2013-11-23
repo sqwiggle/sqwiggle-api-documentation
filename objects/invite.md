@@ -1,5 +1,5 @@
 # Invite
-An invite represents an email invitation to join an organization.
+An invite object represents an email invitation to join an organization.
 
 ## Attributes
 <table>
