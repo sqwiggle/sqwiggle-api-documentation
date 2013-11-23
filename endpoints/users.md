@@ -12,10 +12,13 @@ the corresponding user profile information. You may pass 'me' instead of a user 
 the current token.
 
 ### Request
-<dl>
-  <dt>id</dt>
-  <dd>required</dd>
-</dl>
+<table>
+    <tr>
+        <td>id</td>
+        <td>required</td>
+        <td>ID of the user object to retrieve</td>
+    </tr>
+</table>
 
 
 ## Update a User
@@ -24,26 +27,43 @@ Updates the specified user by setting the values of the parameters passed. Any p
 will be left unchanged, unrecognised parameters will result in the request returning an error response.
 
 ### Request
-<dl>
-  <dt>id</dt>
-  <dd>required</dd>
-  <dt>name</dt>
-  <dd>optional
-  The users full display name</dd>
-  <dt>email</dt>
-  <dd>optional</dd>
-  <dt>time_zone</dt>
-  <dd>optional</dd>
-  <dt>avatar</dt>
-  <dd>optional</dd>
-  <dt>status</dt>
-  <dd>optional
-  Status may be set to one of 'busy' or 'available'</dd>
-  <dt>message</dt>
-  <dd>optional
-  A message which will be displayed to other users</dd>
-</dl>
-
+<table>
+    <tr>
+        <td>id</td>
+        <td>required</td>
+        <td>ID of the user object to update</td>
+    </tr>
+    <tr>
+        <td>name</td>
+        <td>optional</td>
+        <td>The users full display name</td>
+    </tr>
+    <tr>
+        <td>email</td>
+        <td>optional</td>
+        <td>The users email address</td>
+    </tr>
+    <tr>
+        <td>time_zone</td>
+        <td>optional</td>
+        <td>The users time zone (in rails format)</td>
+    </tr>
+    <tr>
+        <td>avatar</td>
+        <td>optional</td>
+        <td>A URL pointing to the users avatar, this must reside on Sqwiggle's servers</td>
+    </tr>
+    <tr>
+        <td>status</td>
+        <td>optional</td>
+        <td>Status enum may be set to one of 'busy' or 'available'</td>
+    </tr>
+    <tr>
+        <td>messaage</td>
+        <td>optional</td>
+        <td>A custom message which will be displayed to other users</td>
+    </tr>
+</table>
 
 ## Remove a User
 
@@ -56,12 +76,18 @@ Returns a list of all users in the current organization. The users are returned 
 by default.
 
 ### Request
-<dl>
-  <dt>page</dt>
-  <dd>optional</dd>
-  <dt>limit</dt>
-  <dd>optional</dd>
-</dl>
+<table>
+    <tr>
+        <td>page</td>
+        <td>optional</td>
+        <td>For paginating through large numbers of users, the page of results to retrieve</td>
+    </tr>
+    <tr>
+        <td>limit</td>
+        <td>optional</td>
+        <td>The number of users to return (between 1-100)</td>
+    </tr>
+</table>
 
 
 ## Ping a User
@@ -70,7 +96,10 @@ You can 'ping' another user to get their attention. This is usually used when th
 but could be used at other times. The client name and image will appear in the ping notification.
 
 ### Request
-<dl>
-  <dt>id</dt>
-  <dd>required</dd>
-</dl>
+<table>
+    <tr>
+        <td>id</td>
+        <td>required</td>
+        <td>ID of the user object to retrieve</td>
+    </tr>
+</table>
