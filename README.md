@@ -1,5 +1,10 @@
 # Sqwiggle API Documentation
 
+## Work In Progress
+
+The Sqwiggle API is not yet public, this documentation is a work in process and the endpoints defined 
+within can not yet be accessed.
+
 This project forms the backbone of the Sqwiggle API documentation, for a more readable/browseable version
 please check out the formatted documentation on our website: https://www.sqwiggle.com/api
 
