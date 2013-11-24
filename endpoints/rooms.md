@@ -51,7 +51,7 @@ that can be changed is the room name, paths will be automatically generated.
 
 ## Remove a Room
 
-Rooms the specified room from the organization. This action can not be performed whilst any users are actively
+Removes the specified room from the organization. This action can not be performed whilst any users are actively
 participating in a room and is permanant. Message and attachment history for the room _cannot_ be retrieved once it has been deleted.
 
 ### Request
