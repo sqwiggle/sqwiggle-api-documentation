@@ -1,3 +1,5 @@
+# Authentication
+
 All requests to the API must be made over HTTPS. You can authenticate with the Sqwiggle API 
 using an access token, which is passed via HTTP Basic Authentication and goes in the username 
 field. A dummy password, such as X, goes in the password field. 

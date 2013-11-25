@@ -1,3 +1,5 @@
+# Getting Started
+
 __Welcome to the Sqwiggle API, it's great to have you taking a look at how to integrate
 with Sqwiggle, we think our API allows for some pretty neat hacks, apps and more!__
 
