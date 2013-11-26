@@ -5,6 +5,12 @@
 Retrieves the details of any organization that the token has access to. At this time each user can only belong to a single organization and all API requests are scoped by a single organization.
 
 ### Request
+<div class="request">
+    <code class="http" title="HTTP">GET /organizations/:id</code>
+    <code class="ruby" title="Ruby">Sqwiggle::Organization.find(id)</code>
+</div>
+
+### Parameters
 <table>
     <tr>
         <td>id</td>
@@ -19,6 +25,16 @@ Retrieves the details of any organization that the token has access to. At this 
 Updates the specified organization by setting the values of the parameters passed. At this time the only parameter that can be changed is the organization name, paths will be automatically generated.
 
 ### Request
+<div class="request">
+    <code class="http" title="HTTP">PUT /organizations/:id</code>
+    <code class="ruby" title="Ruby">
+o = Sqwiggle::Organization.find(id)
+o.name = "Acme, Inc"
+o.save
+    </code>
+</div>
+
+### Parameters
 <table>
     <tr>
         <td>id</td>
@@ -38,3 +54,8 @@ Updates the specified organization by setting the values of the parameters passe
 Returns a list of all organizations the current token has access to. At this time each user can only belong to a single organization and all API requests are scoped by a single organization.
 
 ### Request
+<div class="request">
+    <code class="http" title="HTTP">GET /organizations</code>
+    <code class="ruby" title="Ruby">Sqwiggle::Organization.all</code>
+</div>
+

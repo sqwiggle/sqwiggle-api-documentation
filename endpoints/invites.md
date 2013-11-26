@@ -49,7 +49,10 @@ Removes the specified invite from the organization. This will result in the invi
 ### Request
 <div class="request">
     <code class="http" title="HTTP">DELETE /invites/:id</code>
-    <code class="ruby" title="Ruby">Sqwiggle::Invite.destroy(id)</code>
+    <code class="ruby" title="Ruby">
+i = Sqwiggle::Invite.find(id)
+i.delete
+    </code>
 </div>
 
 ### Parameters
