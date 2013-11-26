@@ -38,13 +38,11 @@ An invite object represents an email invitation to join an organization.
 
 ## Example
 
-```
-{
-    "id": 1234,
-    "from_id": 5678,
-    "email": "invited@example.com",
-    "avatar: "",
-    "url": "https://www.sqwiggle.com/signup/hG60KLmf3mfL11",
-    "created_at": "2013-10-11T03:00:00Z"
-}
-```
+    {
+        "id": 1234,
+        "from_id": 5678,
+        "email": "invited@example.com",
+        "avatar: "",
+        "url": "https://www.sqwiggle.com/signup/hG60KLmf3mfL11",
+        "created_at": "2013-10-11T03:00:00Z"
+    }

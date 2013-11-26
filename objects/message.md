@@ -48,23 +48,21 @@ A message object represents an item in any chat stream, they may be created by h
 
 ## Example
 
-```
-{
-    "id": 1234,
-    "room_id": 5678,
-    "message": "Jack Dorsey, just setting up my sqwggl",
-    "user": {
-        "id": 9374,
-        "name": "Ev",
-        ...
-    },
-    "attachments": [],
-    "mentions": [{
-        "id": 3011,
-        "name": "Jack Dorsey",
-        "indices": [0, 11]
-    }],
-    "created_at": "2013-03-21T12:50:00Z",
-    "updated_at": "2013-03-21T12:50:00Z"
-}
-```
+    {
+        "id": 1234,
+        "room_id": 5678,
+        "message": "Jack Dorsey, just setting up my sqwggl",
+        "user": {
+            "id": 9374,
+            "name": "Ev",
+            ...
+        },
+        "attachments": [],
+        "mentions": [{
+            "id": 3011,
+            "name": "Jack Dorsey",
+            "indices": [0, 11]
+        }],
+        "created_at": "2013-03-21T12:50:00Z",
+        "updated_at": "2013-03-21T12:50:00Z"
+    }

@@ -36,20 +36,19 @@ Every user belongs to an organization.
 </table>
 
 ## Example
-```
-{   
-    "id": 1234,
-    "name": "Acme, Inc",
-    "created_at": "2013-01-01T03:18:33Z",
-    "billing: {
-        "receipts": true,
-        "email": "billing@acmeinc.com"
-    },
-    "security: {
-        "media_accept": false,
-        "domain_restrict": false,
-        "domain_signup": true,
-        "open_invites": true
+
+    {   
+        "id": 1234,
+        "name": "Acme, Inc",
+        "created_at": "2013-01-01T03:18:33Z",
+        "billing: {
+            "receipts": true,
+            "email": "billing@acmeinc.com"
+        },
+        "security: {
+            "media_accept": false,
+            "domain_restrict": false,
+            "domain_signup": true,
+            "open_invites": true
+        }
     }
-}
-```

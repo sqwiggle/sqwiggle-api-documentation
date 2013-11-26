@@ -43,15 +43,13 @@ An attachment object is a piece of media that belongs to a message, it may repre
 
 ## Example
 
-```
-{
-    "id": 1234,
-    "type": "link",
-    "title": "Google",
-    "image": "https://www.google.com/images/google_favicon_128.png",
-    "description": "The worlds favorite search engine",
-    "url": "https://www.google.com",
-    "created_at": "2013-04-01T11:54:00Z",
-    "updated_at": "2013-04-01T11:55:02Z"
-}
-```
+    {
+        "id": 1234,
+        "type": "link",
+        "title": "Google",
+        "image": "https://www.google.com/images/google_favicon_128.png",
+        "description": "The worlds favorite search engine",
+        "url": "https://www.google.com",
+        "created_at": "2013-04-01T11:54:00Z",
+        "updated_at": "2013-04-01T11:55:02Z"
+    }

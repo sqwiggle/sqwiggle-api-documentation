@@ -23,10 +23,8 @@ An error object represents a user or server error and is returned with all non 2
 
 ## Example
 
-```
-{
-    "type": "authentication",
-    "message": "No authentication token provided",
-    "param": ""
-}
-```
+    {
+        "type": "authentication",
+        "message": "No authentication token provided",
+        "param": ""
+    }

@@ -36,24 +36,23 @@ A conversation object represents an ephemeral media connection between two or mo
 </table>
 
 ## Example
-```
-{   
-    "id": 1234,
-    "room_id": 5678,
-    "status": "open",
-    "participating": [{
-        "id": 3456,
-        "name": "Elon Musk"
-        ...
-    },{
-        "id": 9834,
-        "name": "Bill Gates"
-        ...
-    }],
-    "users": [{
-        "id": 3456,
-        "name": "Elon Musk"
-        ...
-    }]
-}
-```
+
+    {   
+        "id": 1234,
+        "room_id": 5678,
+        "status": "open",
+        "participating": [{
+            "id": 3456,
+            "name": "Elon Musk"
+            ...
+        },{
+            "id": 9834,
+            "name": "Bill Gates"
+            ...
+        }],
+        "users": [{
+            "id": 3456,
+            "name": "Elon Musk"
+            ...
+        }]
+    }

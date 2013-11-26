@@ -31,13 +31,11 @@ A room represents a space in Sqwiggle where users can exchange messages and cond
 </table>
 
 ## Example
-```
-{   
-    "id": 1234,
-    "user_id": 5678,
-    "name": "Engineering",
-    "path": "engineering",
-    "created_at": "2013-04-01T06:00:38Z"
-}
-```
 
+    {   
+        "id": 1234,
+        "user_id": 5678,
+        "name": "Engineering",
+        "path": "engineering",
+        "created_at": "2013-04-01T06:00:38Z"
+    }
