@@ -9,8 +9,12 @@ built-in HTTP features, like HTTP authentication and HTTP verbs, which can be un
 by off-the-shelf HTTP clients.
 
 
+## Clients
+In order to use the Sqwiggle API you'll first need to create a client and generate a token, you can do
+so here: [https://www.sqwiggle.com/company/clients](https://www.sqwiggle.com/company/clients).
+
 ## Endpoints
-All API requests are made to https://api.sqwiggle.com/ and all requests are served over HTTPS.
+All API requests are made to **https://api.sqwiggle.com/** and all requests are served over HTTPS.
 
 ## Formats
 At this time the only response format support is JSON and as such is the default format returned by 
