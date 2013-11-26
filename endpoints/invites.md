@@ -8,7 +8,7 @@ in your account becoming blocked.
 ### Request
 <div class="request">
     <code class="http" title="HTTP">POST /invites</code>
-    <code class="ruby" title="Ruby">Sqwiggle::Invites.new(email: 'example@example.org')</code>
+    <code class="ruby" title="Ruby">Sqwiggle::Invite.new(email: 'example@example.org')</code>
 </div>
 
 ### Parameters
@@ -29,7 +29,7 @@ the invite.
 ### Request
 <div class="request">
     <code class="http" title="HTTP">GET /invites/:id</code>
-    <code class="ruby" title="Ruby">Sqwiggle::Invites.find(id)</code>
+    <code class="ruby" title="Ruby">Sqwiggle::Invite.find(id)</code>
 </div>
 
 ### Parameters
@@ -49,7 +49,7 @@ Removes the specified invite from the organization. This will result in the invi
 ### Request
 <div class="request">
     <code class="http" title="HTTP">DELETE /invites/:id</code>
-    <code class="ruby" title="Ruby">Sqwiggle::Invites.destroy(id)</code>
+    <code class="ruby" title="Ruby">Sqwiggle::Invite.destroy(id)</code>
 </div>
 
 ### Parameters
@@ -70,7 +70,7 @@ by default.
 ### Request
 <div class="request">
     <code class="http" title="HTTP">GET /invites</code>
-    <code class="ruby" title="Ruby">Sqwiggle::Invites.all(page: 1, limit: 100)</code>
+    <code class="ruby" title="Ruby">Sqwiggle::Invite.all(page: 1, limit: 100)</code>
 </div>
 
 ### Parameters
