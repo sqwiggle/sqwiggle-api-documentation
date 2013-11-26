@@ -6,6 +6,12 @@ When an invite is created an email is automatically sent to the recipients addre
 in your account becoming blocked. 
 
 ### Request
+<div class="request">
+    <code class="http" title="HTTP">POST /invites</code>
+    <code class="ruby" title="Ruby">Sqwiggle::Invites.new(email: 'example@example.org')</code>
+</div>
+
+### Parameters
 <table>
     <tr>
         <td>email</td>
@@ -21,6 +27,12 @@ Retrieves the details of any invite that has been previously created. Supply an 
 the invite.
 
 ### Request
+<div class="request">
+    <code class="http" title="HTTP">GET /invites/:id</code>
+    <code class="ruby" title="Ruby">Sqwiggle::Invites.find(id)</code>
+</div>
+
+### Parameters
 <table>
     <tr>
         <td>id</td>
@@ -35,6 +47,12 @@ the invite.
 Removes the specified invite from the organization. This will result in the invite no longer working should the recipient click on the link contained in the invite email.
 
 ### Request
+<div class="request">
+    <code class="http" title="HTTP">DELETE /invites/:id</code>
+    <code class="ruby" title="Ruby">Sqwiggle::Invites.destroy(id)</code>
+</div>
+
+### Parameters
 <table>
     <tr>
         <td>id</td>
@@ -50,6 +68,12 @@ Returns a list of all outstanging invites in the current organization.
 by default.
 
 ### Request
+<div class="request">
+    <code class="http" title="HTTP">GET /invites</code>
+    <code class="ruby" title="Ruby">Sqwiggle::Invites.all(page: 1, limit: 100)</code>
+</div>
+
+### Parameters
 <table>
     <tr>
         <td>page</td>
