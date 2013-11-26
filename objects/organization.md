@@ -41,11 +41,11 @@ Every user belongs to an organization.
         "id": 1234,
         "name": "Acme, Inc",
         "created_at": "2013-01-01T03:18:33Z",
-        "billing: {
+        "billing": {
             "receipts": true,
             "email": "billing@acmeinc.com"
         },
-        "security: {
+        "security": {
             "media_accept": false,
             "domain_restrict": false,
             "domain_signup": true,

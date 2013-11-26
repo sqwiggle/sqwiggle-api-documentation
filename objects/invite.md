@@ -42,7 +42,7 @@ An invite object represents an email invitation to join an organization.
         "id": 1234,
         "from_id": 5678,
         "email": "invited@example.com",
-        "avatar: "",
+        "avatar": "https://www.gravatar.com/avatar/bf1f46de81a43348f29a9c003d727245?d=mm",
         "url": "https://www.sqwiggle.com/signup/hG60KLmf3mfL11",
         "created_at": "2013-10-11T03:00:00Z"
     }
