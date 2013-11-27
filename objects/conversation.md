@@ -19,11 +19,6 @@ A conversation object represents an ephemeral media connection between two or mo
         <td>open, closed</td>
     </tr>
     <tr>
-        <td>status</td>
-        <td>enum</td>
-        <td>open, closed</td>
-    </tr>
-    <tr>
         <td>participating</td>
         <td>list</td>
         <td>A list of User objects that are currently participating in the conversation</td>
