@@ -14,6 +14,11 @@ An attachment object is a piece of media that belongs to a message, it may repre
         <td>image, link, file, twitter_status, twitter_user, video, code, gist</td>
     </tr>
     <tr>
+        <td>url</td>
+        <td>string</td>
+        <td>URL where the attachment content can be accessed</td>
+    </tr>
+    <tr>
         <td>title</td>
         <td>string</td>
         <td>A title for the attachment, for example a filename or webpage title</td>
