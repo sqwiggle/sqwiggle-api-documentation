@@ -22,7 +22,7 @@ will be left unchanged, unrecognised parameters will result in the request retur
 ### Request
 
 <div class="request">
-    <code class="http" title="HTTP">Get /users/:id</code>
+    <code class="http" title="HTTP">Put /users/:id</code>
     <code class="ruby" title="Ruby">Sqwiggle::User.find(id)</code>
 </div>
 
