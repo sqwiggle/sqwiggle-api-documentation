@@ -24,6 +24,11 @@ A room represents a space in Sqwiggle where users can exchange messages and cond
         <td>The path to access room in the web app, eg sqwiggle.com/:company/:path</td>
     </tr>
     <tr>
+        <td>user_count</td>
+        <td>integer</td>
+        <td>The number of users currently in the room</td>
+    </tr>
+    <tr>
         <td>created_at</td>
         <td>datetime</td>
         <td>The time that this room was created</td>
@@ -37,5 +42,6 @@ A room represents a space in Sqwiggle where users can exchange messages and cond
         "user_id": 5678,
         "name": "Engineering",
         "path": "engineering",
+        "user_count": 12,
         "created_at": "2013-04-01T06:00:38Z"
     }

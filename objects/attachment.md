@@ -34,14 +34,29 @@ An attachment object is a piece of media that belongs to a message, it may repre
         <td>URL of an image representing the attachment, this may not reside on Sqwiggle's servers</td>
     </tr>
     <tr>
+        <td>url</td>
+        <td>string</td>
+        <td>The location at whih the attachment resides</td>
+    </tr>
+    <tr>
+        <td>status</td>
+        <td>string</td>
+        <td>If an upload, denotes the uploade status ('pending' or 'uplodaed')</td>
+    </tr>
+    <tr>
+        <td>animated</td>
+        <td>boolean</td>
+        <td>If an image, denotes whether animated</td>
+    </tr>
+    <tr>
         <td>created_at</td>
         <td>datetime</td>
-        <td>The time that this message was created</td>
+        <td>The time that this attachment was created</td>
     </tr>
     <tr>
         <td>updated_at</td>
         <td>datetime</td>
-        <td>The time that this message was last updated or edited</td>
+        <td>The time that this attachment was last updated or edited</td>
     </tr>
 </table>
 
@@ -55,6 +70,8 @@ An attachment object is a piece of media that belongs to a message, it may repre
         "image": "https://www.google.com/images/google_favicon_128.png",
         "description": "The worlds favorite search engine",
         "url": "https://www.google.com",
+        "status":null,
+        "animated":null,
         "created_at": "2013-04-01T11:54:00Z",
         "updated_at": "2013-04-01T11:55:02Z"
     }

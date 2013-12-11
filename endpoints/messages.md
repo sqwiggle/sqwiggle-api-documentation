@@ -6,21 +6,21 @@ Create a new message in an individual room, new messages will be pushed to conne
 
 ### Request
 <div class="request">
-    <code class="http" title="HTTP">POST /rooms/:id/messages</code>
+    <code class="http" title="HTTP">POST /messages</code>
     <code class="ruby" title="Ruby">Sqwiggle::Message.new(message: "Sqwiggle is pretty neat")</code>
 </div>
 
 ### Parameters
 <table>
     <tr>
-        <td>id</td>
-        <td>required</td>
-        <td>The id of the room to post the message to</td>
-    </tr>
-    <tr>
-        <td>message</td>
+        <td>text</td>
         <td>required</td>
         <td>The text of the message</td>
+    </tr>
+    <tr>
+        <td>room_id</td>
+        <td>required</td>
+        <td>The id of the room to post the message to</td>
     </tr>
 </table>
 
@@ -123,6 +123,3 @@ by default.
     </tr>
 </table>
 
-## List all Messages in a Room
-
-Returns all messages in an individual room. The messages are returned in reverse date order by default.

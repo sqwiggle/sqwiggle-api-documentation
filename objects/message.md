@@ -14,14 +14,14 @@ A message object represents an item in any chat stream, they may be created by h
         <td>Id of the room that this message belongs to</td>
     </tr>
     <tr>
-        <td>message</td>
+        <td>text</td>
         <td>string</td>
         <td>The plain text content of the message, HTML will be escaped</td>
     </tr>
     <tr>
-        <td>user</td>
-        <td>User</td>
-        <td>A partial user object representing the user that created the message</td>
+        <td>author</td>
+        <td>object</td>
+        <td>An object representing the user or API client that created the message</td>
     </tr>
     <tr>
         <td>attachments</td>
@@ -51,8 +51,8 @@ A message object represents an item in any chat stream, they may be created by h
     {
         "id": 1234,
         "room_id": 5678,
-        "message": "Jack Dorsey, just setting up my sqwggl",
-        "user": {
+        "text": "Jack Dorsey, just setting up my sqwggl",
+        "author": {
             "id": 9374,
             "name": "Ev",
             ...

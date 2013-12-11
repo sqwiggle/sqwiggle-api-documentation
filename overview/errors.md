@@ -14,6 +14,11 @@ The response body will always be JSON and contain an Error object.
         <td>An incorrect or invalid authentication token was supplied</td>
     </tr>
     <tr>
+        <td>authorization</td>
+        <td>The client does not have permission to perform the requested
+        operation</td>
+    </tr>
+    <tr>
         <td>invalid_param</td>
         <td>One or more of the parameters provided were invalid</td>
     </tr>

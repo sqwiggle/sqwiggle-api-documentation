@@ -24,7 +24,7 @@ A conversation object represents an ephemeral media connection between two or mo
         <td>A list of User objects that are currently participating in the conversation</td>
     </tr>
     <tr>
-        <td>users</td>
+        <td>participated</td>
         <td>list</td>
         <td>A list of User objects that have been and or are currently in the conversation</td>
     </tr>
@@ -45,7 +45,7 @@ A conversation object represents an ephemeral media connection between two or mo
             "name": "Bill Gates"
             ...
         }],
-        "users": [{
+        "participated": [{
             "id": 3456,
             "name": "Elon Musk"
             ...

@@ -44,17 +44,27 @@ a.save
     <tr>
         <td>title</td>
         <td>optional</td>
-        <td></td>
+        <td>A title for the attachment, for example a filename or webpage title</td>
     </tr>
     <tr>
         <td>description</td>
         <td>optional</td>
-        <td></td>
+        <td>A description of the attachment, for example a web page summary</td>
     </tr>
     <tr>
         <td>url</td>
         <td>optional</td>
-        <td></td>
+        <td>The URL of the attachment, this may not reside on Sqwiggle's servers</td>
+    </tr>
+    <tr>
+        <td>image</td>
+        <td>optional</td>
+        <td>The URL for an optional preview image</td>
+    </tr>
+    <tr>
+        <td>status</td>
+        <td>optional</td>
+        <td>If an upload, this string denotes whether the upload is 'pending' or 'uploaded'. (Null if not an upload E.G. a link attachment)</td>
     </tr>
 </table>
 
