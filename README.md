@@ -1,13 +1,8 @@
 # Sqwiggle API Documentation
 
-## Beta Testers
+## Overview
 
-The Sqwiggle API is not yet public, this documentation is a work in process and the endpoints defined 
-within can not yet be accessed. If you would like to be a beta tester of the API please get in touch with
-tom@sqwiggle.com and we'll hook you up!
-
-This project forms the backbone of the Sqwiggle API documentation, for a more readable/browseable version
-please check out the formatted documentation on our website: (redacted)
+This project forms the backbone of the Sqwiggle API documentation and is a current work in progress, for a more readable/browseable version please check out the formatted documentation on our website: https://www.sqwiggle.com/docs
 
 
 ## Contributions
