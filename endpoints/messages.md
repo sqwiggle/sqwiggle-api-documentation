@@ -18,6 +18,16 @@ Create a new message in an individual room, new messages will be pushed to conne
         <td>The text of the message</td>
     </tr>
     <tr>
+        <td>format</td>
+        <td>optional</td>
+        <td>Set this parameter to 'html' to allow a subset of HTML tags in the message</td>
+    </tr>
+    <tr>
+        <td>parse</td>
+        <td>optional</td>
+        <td>Whether links in the message should be converted to rich attachments</td>
+    </tr>
+    <tr>
         <td>room_id</td>
         <td>required</td>
         <td>The id of the room to post the message to</td>
