@@ -9,7 +9,7 @@ the current token.
 ### Request
 
 <div class="request">
-    <code class="http" title="HTTP">Get /users/:id</code>
+    <code class="http" title="HTTP">GET /users/:id</code>
     <code class="ruby" title="Ruby">Sqwiggle::User.find(id)</code>
 </div>
 
@@ -22,7 +22,7 @@ will be left unchanged, unrecognised parameters will result in the request retur
 ### Request
 
 <div class="request">
-    <code class="http" title="HTTP">Put /users/:id</code>
+    <code class="http" title="HTTP">PUT /users/:id</code>
     <code class="ruby" title="Ruby">Sqwiggle::User.find(id)</code>
 </div>
 
@@ -63,7 +63,7 @@ will be left unchanged, unrecognised parameters will result in the request retur
 
 ## Remove a User
 
-This endpoint is not currently accessible by clients.
+This endpoint is not currently accessible by API clients.
 
 
 ## List all Users
@@ -74,7 +74,7 @@ by default.
 ### Request
 
 <div class="request">
-    <code class="http" title="HTTP">Get /users</code>
+    <code class="http" title="HTTP">GET /users</code>
     <code class="ruby" title="Ruby">Sqwiggle::User.all</code>
 </div>
 
