@@ -30,4 +30,8 @@ The response body will always be JSON and contain an Error object.
         <td>limit_reached</td>
         <td>The request was made too fast, wait and try again</td>
     </tr>
+    <tr>
+        <td>validation</td>
+        <td>One or more of the parameters didn't fulfill the validation.</td>
+    </tr>
 </table>
