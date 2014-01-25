@@ -21,7 +21,7 @@ A user object represents a single person on your organizations team.
     <tr>
         <td>status</td>
         <td>enum</td>
-        <td>busy or available</td>
+        <td>busy, available, away, offline</td>
     </tr>
     <tr>
         <td>message</td>
@@ -56,7 +56,7 @@ A user object represents a single person on your organizations team.
     <tr>
         <td>created_at</td>
         <td>datetime</td>
-        <td>The time this use was created</td>
+        <td>The time this user was created</td>
     </tr>
     <tr>
         <td>last_active_at</td>
