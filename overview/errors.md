@@ -34,4 +34,8 @@ The response body will always be JSON and contain an Error object.
         <td>validation</td>
         <td>One or more of the parameters didn't fulfill the validation.</td>
     </tr>
+    <tr>
+        <td>unknown</td>
+        <td>Usually accompanies an unexpected server error, please get in touch.</td>
+    </tr>
 </table>
