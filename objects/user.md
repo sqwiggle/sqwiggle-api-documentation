@@ -15,8 +15,8 @@ A user object represents a single person on your organizations team.
     </tr>
     <tr>
         <td>media</td>
-        <td>enum</td>
-        <td>video, audio or screen</td>
+        <td>hash</td>
+        <td>An object containing audio, video and screen boolean values</td>
     </tr>
     <tr>
         <td>status</td>
@@ -69,11 +69,6 @@ A user object represents a single person on your organizations team.
         <td>The time this users current online session started</td>
     </tr>
     <tr>
-        <td>last_still</td>
-        <td>string</td>
-        <td>URL to users last known still image</td>
-    </tr>
-    <tr>
         <td>avatar</td>
         <td>string</td>
         <td>URL to a static avatar for the user</td>
@@ -86,7 +81,11 @@ A user object represents a single person on your organizations team.
         "id": 1234,
         "role": "user",
         "name": "John Doe",
-        "media": "video",
+        "media": {
+            "audio": true,
+            "video": true,
+            "screen": false
+        },
         "status": "available",
         "message": "",
         "email": "john.doe@gmail.com",
@@ -96,6 +95,5 @@ A user object represents a single person on your organizations team.
         "created_at": "2013-01-01T03:18:33Z",
         "last_connected_at": "2013-07-20T20:10:33Z",
         "last_active_at": "2013-07-20T20:18:33Z",
-        "last_still": "http://sqwiggle-stills.amazonaws.com/images/still.jpg",
         "avatar": "http://sqwiggle-photos.amazonaws.com/images/avatar.jpg"
     }
