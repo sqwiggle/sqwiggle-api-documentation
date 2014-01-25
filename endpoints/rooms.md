@@ -6,7 +6,7 @@ Rooms can be created from the app interfaces, or programatically via the API. We
 
 ### Request
 <div class="request">
-    <code class="http" title="HTTP">Post /rooms</code>
+    <code class="http" title="HTTP">POST /rooms</code>
     <code class="ruby" title="Ruby">Sqwiggle::Room.create</code>
 </div>
 
@@ -27,7 +27,7 @@ the corresponding room details.
 
 ### Request
 <div class="request">
-    <code class="http" title="HTTP">Get /rooms/:id</code>
+    <code class="http" title="HTTP">GET /rooms/:id</code>
     <code class="ruby" title="Ruby">Sqwiggle::Room.find(id)</code>
 </div>
 
@@ -40,7 +40,7 @@ that can be changed is the room name, paths will be automatically generated.
 ### Request
 
 <div class="request">
-    <code class="http" title="HTTP">Put /rooms/:id</code>
+    <code class="http" title="HTTP">PUT /rooms/:id</code>
     <code class="ruby" title="Ruby">Sqwiggle::Room.find(id).update(params)</code>
 </div>
 
@@ -67,7 +67,7 @@ Removes the room from the organisation.
 ### Request 
 
 <div class="request">
-    <code class="http" title="HTTP">Delete /rooms/:id</code>
+    <code class="http" title="HTTP">DELETE /rooms/:id</code>
     <code class="ruby" title="Ruby">Sqwiggle::Room.find(id).delete</code>
 </div>
 
@@ -80,7 +80,7 @@ by default.
 ### Request 
 
 <div class="request">
-    <code class="http" title="HTTP">Get /rooms</code>
+    <code class="http" title="HTTP">GET /rooms</code>
     <code class="ruby" title="Ruby">Sqwiggle::Room.all</code>
 </div>
 
