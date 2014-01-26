@@ -2,8 +2,8 @@
 
 ## Retrieve a Conversation
 
-Retrieves the details of a specific conversation provided the conversation is accessible via the provided token. 
-Supply a conversation ID and Sqwiggle will return the corresponding conversation information. 
+Retrieves the details of a specific conversation provided it is accessible via the provided token. 
+Supply an ID and Sqwiggle will return the corresponding conversation object. 
 
 ### Request
 <div class="request">
@@ -22,8 +22,7 @@ Supply a conversation ID and Sqwiggle will return the corresponding conversation
 
 ## List all Conversations
 
-Returns a list of all conversations within the organization associated with the
-provided token. This includes both finished and ongoing. 
+Returns a list of all conversations within the organization associated with the provided token. This includes both finished and ongoing. 
 
 ### Request
 <div class="request">
