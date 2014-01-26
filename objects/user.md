@@ -11,7 +11,7 @@ A user object represents a single person on your organizations team.
     <tr>
         <td>role</td>
         <td>enum</td>
-        <td>user, owner or manager</td>
+        <td>user, owner, manager or banned</td>
     </tr>
     <tr>
         <td>media</td>
