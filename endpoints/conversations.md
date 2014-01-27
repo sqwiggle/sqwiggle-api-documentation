@@ -2,8 +2,7 @@
 
 ## Retrieve a Conversation
 
-Retrieves the details of a specific conversation provided it is accessible via the provided token. 
-Supply an ID and Sqwiggle will return the corresponding conversation object. 
+Retrieves the details of a specific conversation provided it is accessible via the provided token.
 
 ### Request
 <div class="request">
