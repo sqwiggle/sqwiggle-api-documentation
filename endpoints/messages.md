@@ -64,7 +64,7 @@ Updates the specified message by setting the values of the parameters passed. No
     <code class="http" title="HTTP">PUT /messages/:id</code>
     <code class="ruby" title="Ruby">
 m = Sqwiggle::Message.find(id)
-m.message = "I edited this message"
+m.text = "I edited this message"
 m.save
     </code>
 </div>
