@@ -77,7 +77,7 @@ m.save
         <td>ID of the message to update</td>
     </tr>
     <tr>
-        <td>message</td>
+        <td>text</td>
         <td>required</td>
         <td>The new text for the message</td>
     </tr>
