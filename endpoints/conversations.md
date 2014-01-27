@@ -25,7 +25,7 @@ Returns a list of all conversations within the organization associated with the 
 
 ### Request
 <div class="request">
-    <code class="http" title="HTTP">GET /Conversations</code>
+    <code class="http" title="HTTP">GET /conversations</code>
     <code class="ruby" title="Ruby">Sqwiggle::Conversation.all(page: 1, limit: 100)</code>
 </div>
 
