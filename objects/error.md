@@ -30,6 +30,8 @@ An error object represents a user or server error and is returned with all non 2
 
     {
         "type": "authentication",
-        "message": "No authentication token provided",
+        "message": "Sorry, your account could not be authenticated",
+        "details": "Did you provide an auth_token? For details on how to authorize with the API 
+        please see our documentation here: https://www.sqwiggle.com/docs/overview/authentication",
         "param": ""
     }
