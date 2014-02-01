@@ -11,7 +11,12 @@ An error object represents a user or server error and is returned with all non 2
     <tr>
         <td>message</td>
         <td>string</td>
-        <td>A human readable message with details about the error</td>
+        <td>A human readable message for display to the end user</td>
+    </tr>
+    <tr>
+        <td>details</td>
+        <td>string</td>
+        <td>Further error details useful for developer debugging. Should not be displayed to the end user.</td>
     </tr>
     <tr>
         <td>param</td>
