@@ -5,8 +5,8 @@ We're working on libraries to make the Sqwiggle API as easy to use as possible i
 ## Ruby
 We've written a [fantastic gem](https://github.com/sqwiggle/sqwiggle-ruby) for you Ruby-heads out there. It wraps all of the current API functionality in the familiar ActiveRecord style. Check out the github page for installation instructions.
 
-## ObjectiveC
-Our [ObjectiveC SDK](https://github.com/sqwiggle/sqwiggle-ios-sdk) is a work in progress that isn't quite ready for prime time. We're accepting contributions if you want to help out!
+## ObjectiveC (iOS-Only)
+Our [ObjectiveC SDK](https://github.com/sqwiggle/sqwiggle-ios-sdk) is ready to rock! It's readily available on [Cocoapods](http://cocoapods.org/?q=Sqwigg) for easy integration into your project. <b>NOTE:</b> OS X is not officially supported just yet, but [we have plans to change that](https://github.com/sqwiggle/sqwiggle-ios-sdk/issues/24).
 
 ## PHP
 Isern Palaus has written a great [SDK for PHP](https://github.com/ipalaus/sqwiggle-php-sdk) that makes interacting with the Sqwiggle API as easy as pie. Check out the github page for installation instructions.
