@@ -55,7 +55,7 @@ will be left unchanged, unrecognised parameters will result in the request retur
         <td>Status enum may be set to one of 'busy', 'available' or 'offline'</td>
     </tr>
     <tr>
-        <td>messaage</td>
+        <td>message</td>
         <td>optional</td>
         <td>A custom message which will be displayed to other users</td>
     </tr>
