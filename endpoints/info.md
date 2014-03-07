@@ -8,6 +8,7 @@ Returns configuration information for Sqwiggle clients, such as where to store f
 <div class="request">
     <code class="http" title="HTTP">GET /info/configuration</code>
     <code class="ruby" title="Ruby">Sqwiggle::Info.configuration</code>
+    <code class="js" title="Node.js">client.info.configuration(function(err, resp){});</code>
 </div>
 
 ## Retrieve Versions
@@ -17,6 +18,7 @@ Returns the current versions of the official Sqwiggle clients across all platfor
 <div class="request">
     <code class="http" title="HTTP">GET /info/versions</code>
     <code class="ruby" title="Ruby">Sqwiggle::Info.versions</code>
+    <code class="js" title="Node.js">client.info.versions(function(err, resp){});</code>
 </div>
 
 ## Retrieve All
@@ -26,4 +28,5 @@ Returns the configuration and version details in a single request.
 <div class="request">
     <code class="http" title="HTTP">GET /info</code>
     <code class="ruby" title="Ruby">Sqwiggle::Info</code>
+    <code class="js" title="Node.js">client.info.all(function(err, resp){});</code>
 </div>

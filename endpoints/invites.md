@@ -9,6 +9,7 @@ in your account becoming blocked.
 <div class="request">
     <code class="http" title="HTTP">POST /invites</code>
     <code class="ruby" title="Ruby">Sqwiggle::Invite.new(email: 'example@example.org')</code>
+    <code class="js" title="Node.js">client.invites.create({email: 'example@example.org'}, function(err, resp){});</code>
 </div>
 
 ### Parameters
@@ -30,6 +31,7 @@ the invite.
 <div class="request">
     <code class="http" title="HTTP">GET /invites/:id</code>
     <code class="ruby" title="Ruby">Sqwiggle::Invite.find(id)</code>
+    <code class="js" title="Node.js">client.invites.find(id, function(err, resp){})</code>
 </div>
 
 ### Parameters
@@ -53,6 +55,7 @@ Removes the specified invite from the organization. This will result in the invi
 i = Sqwiggle::Invite.find(id)
 i.delete
     </code>
+    <code class="js" title="Node.js">client.invites.delete(id, function(err, resp){});</code>
 </div>
 
 ### Parameters
@@ -74,6 +77,7 @@ by default.
 <div class="request">
     <code class="http" title="HTTP">GET /invites</code>
     <code class="ruby" title="Ruby">Sqwiggle::Invite.all(page: 1, limit: 100)</code>
+    <code class="js" title="Node.js">client.invites.index({page: 1, limit: 100}, function(err, resp){});</code>
 </div>
 
 ### Parameters

@@ -8,6 +8,7 @@ Retrieves the details of any organization that the token has access to. At this 
 <div class="request">
     <code class="http" title="HTTP">GET /organizations/:id</code>
     <code class="ruby" title="Ruby">Sqwiggle::Organization.find(id)</code>
+    <code class="js" title="Node.js">client.organizations.find(id, function(err, resp){})</code>
 </div>
 
 ### Parameters
@@ -32,6 +33,7 @@ o = Sqwiggle::Organization.find(id)
 o.name = "Acme, Inc"
 o.save
     </code>
+    <code class="js" title="Node.js">client.organizations.update(id, {name: 'Acme, Inc'}, function(err, resp){});</code>
 </div>
 
 ### Parameters
@@ -57,5 +59,6 @@ Returns a list of all organizations the current token has access to. At this tim
 <div class="request">
     <code class="http" title="HTTP">GET /organizations</code>
     <code class="ruby" title="Ruby">Sqwiggle::Organization.all</code>
+    <code class="ruby" title="Ruby">client.organizations.index(null, function(err, resp){});</code>
 </div>
 

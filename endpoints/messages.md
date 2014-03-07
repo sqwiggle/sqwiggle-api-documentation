@@ -43,6 +43,7 @@ Retrieves the details of a message and any nested attachments.
 <div class="request">
     <code class="http" title="HTTP">GET /messages/:id</code>
     <code class="ruby" title="Ruby">Sqwiggle::Message.find(id)</code>
+    <code class="js" title="Node.js">client.messages.find(id, function(err, resp){})</code>
 </div>
 
 ### Parameters
@@ -67,6 +68,7 @@ m = Sqwiggle::Message.find(id)
 m.text = "I edited this message"
 m.save
     </code>
+    <code class="js" title="Node.js">client.messages.update(id, {text: "I edited this messsage"}, function(err, resp){});</code>
 </div>
 
 ### Parameters
@@ -95,6 +97,7 @@ Removes the specified message from the room, so that conversation flow is preser
 m = Sqwiggle::Message.find(id)
 m.delete
     </code>
+    <code class="js" title="Node.js">client.messages.delete(id, function(err, resp){});</code>
 </div>
 
 ### Parameters
@@ -116,6 +119,7 @@ by default.
 <div class="request">
     <code class="http" title="HTTP">GET /messages</code>
     <code class="ruby" title="Ruby">Sqwiggle::Message.all(page: 1, limit: 100)</code>
+    <code class="js" title="Node.js">client.messages.index({page: 1, limit: 100}, function(err, resp){});</code>
 </div>
 
 
