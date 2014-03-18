@@ -8,6 +8,7 @@ Rooms can be created from the app interfaces, or programatically via the API. We
 <div class="request">
     <code class="http" title="HTTP">POST /rooms</code>
     <code class="ruby" title="Ruby">Sqwiggle::Room.create</code>
+    <code class="js" title="Node.js">client.rooms.create({name: 'Fun Room'}, function(err, resp){});</code>
 </div>
 
 ### Parameters
@@ -29,6 +30,7 @@ the corresponding room details.
 <div class="request">
     <code class="http" title="HTTP">GET /rooms/:id</code>
     <code class="ruby" title="Ruby">Sqwiggle::Room.find(id)</code>
+    <code class="js" title="Node.js">client.rooms.find(id, function(err, resp){});</code>
 </div>
 
 
@@ -42,6 +44,7 @@ that can be changed is the room name, paths will be automatically generated.
 <div class="request">
     <code class="http" title="HTTP">PUT /rooms/:id</code>
     <code class="ruby" title="Ruby">Sqwiggle::Room.find(id).update(params)</code>
+    <code class="js" title="Node.js">client.rooms.update(id, {name: 'More Fun Room'}, function(err, resp){});</code>
 </div>
 
 ### Parameters
@@ -69,6 +72,7 @@ Removes the room from the organisation.
 <div class="request">
     <code class="http" title="HTTP">DELETE /rooms/:id</code>
     <code class="ruby" title="Ruby">Sqwiggle::Room.find(id).delete</code>
+    <code class="js" title="Node.js">client.rooms.delete(id, function(err, resp){});</code>
 </div>
 
 
@@ -82,6 +86,7 @@ by default.
 <div class="request">
     <code class="http" title="HTTP">GET /rooms</code>
     <code class="ruby" title="Ruby">Sqwiggle::Room.all</code>
+    <code class="js" title="Node.js">client.rooms.index({page: 1, limit: 100}, function(err, resp){});</code>
 </div>
 
 ### Parameters

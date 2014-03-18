@@ -8,6 +8,7 @@ Retrieves the details of a message attachment. There are many different types of
 <div class="request">
     <code class="http" title="HTTP">GET /attachments/:id</code>
     <code class="ruby" title="Ruby">Sqwiggle::Attachment.find(id)</code>
+    <code class="js" title="Node.js">client.attachments.find(id, function(err, resp){});</code>
 </div>
 
 ### Parameters
@@ -32,6 +33,7 @@ a = Sqwiggle::Attachment.find(id)
 a.title = "My new attachment title"
 a.save
     </code>
+    <code class="js" title="Node.js">client.attachments.update(id, {title: "My new attachment title"}, function(err, resp){});</code>
 </div>
 
 ### Parameters
@@ -81,6 +83,7 @@ also be removed.
 a = Sqwiggle::Attachment.find(id)
 a.delete
     </code>
+    <code class="js" title="Node.js">client.attachments.delete(id, function(err, resp){});</code>
 </div>
 
 ### Parameters
@@ -102,6 +105,7 @@ by default.
 <div class="request">
     <code class="http" title="HTTP">GET /attachments</code>
     <code class="ruby" title="Ruby">Sqwiggle::Attachment.all(page: 1, limit: 100)</code>
+    <code class="js" title="Node.js">client.attachments.index({page: 1, limit: 100}, function(err, resp){});</code>
 </div>
 
 

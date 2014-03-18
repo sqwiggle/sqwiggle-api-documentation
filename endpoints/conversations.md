@@ -8,6 +8,7 @@ Retrieves the details of a specific conversation provided it is accessible via t
 <div class="request">
     <code class="http" title="HTTP">GET /conversations/:id</code>
     <code class="ruby" title="Ruby">Sqwiggle::Conversation.find(id)</code>
+    <code class="js" title="Node.js">client.conversations.find(id, function(err, resp){});</code>
 </div>
 
 ### Parameters
@@ -27,6 +28,7 @@ Returns a list of all conversations within the organization associated with the 
 <div class="request">
     <code class="http" title="HTTP">GET /conversations</code>
     <code class="ruby" title="Ruby">Sqwiggle::Conversation.all(page: 1, limit: 100)</code>
+    <code class="js" title="Node.js">client.conversations.list({page: 1, limit: 100}, function(err, resp));</code>
 </div>
 
 

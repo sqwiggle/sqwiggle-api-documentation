@@ -10,3 +10,6 @@ Our [ObjectiveC SDK](https://github.com/sqwiggle/sqwiggle-ios-sdk) is ready to r
 
 ## PHP
 Isern Palaus has written a great [SDK for PHP](https://github.com/ipalaus/sqwiggle-php-sdk) that makes interacting with the Sqwiggle API as easy as pie. Check out the github page for installation instructions.
+
+## Node.js
+We've written an awesome [npm module](https://github.com/sqwiggle/sqwiggle-node) that makes API integration a snap with some simple service objects. Check out the github page for installation instructions.

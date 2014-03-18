@@ -11,6 +11,7 @@ the current token.
 <div class="request">
     <code class="http" title="HTTP">GET /users/:id</code>
     <code class="ruby" title="Ruby">Sqwiggle::User.find(id)</code>
+    <code class="js" title="Node.js">client.users.find(id, function(err, resp){});</code>
 </div>
 
 
@@ -24,6 +25,7 @@ will be left unchanged, unrecognised parameters will result in the request retur
 <div class="request">
     <code class="http" title="HTTP">PUT /users/:id</code>
     <code class="ruby" title="Ruby">Sqwiggle::User.find(id)</code>
+    <code class="js" title="Node.js">client.users.update(id, {name: 'Linus Torvalds'}, function(err, resp){});</code>
 </div>
 
 ### Parameters
@@ -76,6 +78,7 @@ by default.
 <div class="request">
     <code class="http" title="HTTP">GET /users</code>
     <code class="ruby" title="Ruby">Sqwiggle::User.all</code>
+    <code class="js" title="Node.js">client.users.index({page: 1, limit: 100}, function(err, resp){});</code>
 </div>
 
 ### Parameters
