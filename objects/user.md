@@ -21,7 +21,7 @@ A user object represents a single person on your organizations team.
     <tr>
         <td>status</td>
         <td>enum</td>
-        <td>busy, available, away, offline</td>
+        <td>busy, privacy, available, away, offline</td>
     </tr>
     <tr>
         <td>message</td>
