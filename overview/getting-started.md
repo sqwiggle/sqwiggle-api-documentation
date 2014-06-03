@@ -21,4 +21,4 @@ At this time the only response format support is JSON and as such is the default
 the API.
 
 ## Contributions
-All contributions are welcome, however small! If you've spotted a grammar error or mistake in a response object we'd love to know about it. [This documentation is open-source on GitHub](https://github.com/sqwiggle/sqwiggle-api-documentation).
+All contributions are welcome, however small! If you've spotted a grammatical error or mistake in a response object we'd love to know about it. [This documentation is open-source on GitHub](https://github.com/sqwiggle/sqwiggle-api-documentation).
