@@ -34,6 +34,15 @@ Create a new message in an individual room, new messages will be pushed to conne
     </tr>
 </table>
 
+### Mentions
+
+You can also "@mention" a user by including a specially formatted string in the message text. The format is illustrated below, simply replace user_name and user_id with a given users name and id.
+
+<code>
+@(<em>user_name</em>)[user:<em>user_id</em>]
+</code>
+
+
 
 ## Retrieve a Message
 
