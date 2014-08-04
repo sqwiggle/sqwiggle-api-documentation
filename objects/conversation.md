@@ -9,11 +9,6 @@ A conversation object represents an ephemeral media connection between two or mo
         <td></td>
     </tr>
     <tr>
-        <td>room_id</td>
-        <td>integer</td>
-        <td>The room that this conversation took place in</td>
-    </tr>
-    <tr>
         <td>status</td>
         <td>enum</td>
         <td>open, closed</td>
