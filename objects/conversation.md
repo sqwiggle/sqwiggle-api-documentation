@@ -39,7 +39,6 @@ A conversation object represents an ephemeral media connection between two or mo
 
     {   
         "id": 1234,
-        "room_id": 5678,
         "status": "open",
         "participating": [{
             "id": 3456,
