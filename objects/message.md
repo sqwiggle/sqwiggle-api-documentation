@@ -9,9 +9,9 @@ A message object represents an item in any chat stream, they may be created by h
         <td></td>
     </tr>
     <tr>
-        <td>room_id</td>
+        <td>stream_id</td>
         <td>integer</td>
-        <td>Id of the room that this message belongs to</td>
+        <td>Id of the chat stream that this message belongs to</td>
     </tr>
     <tr>
         <td>text</td>
@@ -50,7 +50,7 @@ A message object represents an item in any chat stream, they may be created by h
 
     {
         "id": 1234,
-        "room_id": 5678,
+        "stream_id": 5678,
         "text": "Jack Dorsey, just setting up my sqwggl",
         "author": {
             "id": 9374,

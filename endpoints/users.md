@@ -61,6 +61,16 @@ will be left unchanged, unrecognised parameters will result in the request retur
         <td>optional</td>
         <td>A custom message which will be displayed to other users</td>
     </tr>
+    <tr>
+        <td>snapshot</td>
+        <td>optional</td>
+        <td>A URL pointing to the users current snapshot</td>
+    </tr>
+    <tr>
+        <td>snapshot_interval</td>
+        <td>optional</td>
+        <td>An integer specifying how often an automatic snapshot should be taken, must be set to 0 or greater than 59</td>
+    </tr>
 </table>
 
 ## Remove a User

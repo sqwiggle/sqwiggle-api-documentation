@@ -2,7 +2,7 @@
 
 ## Create a Message
 
-Create a new message in an individual room, new messages will be pushed to connected clients. If a link is detected in the message then it will be parsed and appropriate attachments will be automatically generated - for example a link to a youtube video would generate an attachment of type 'Video' with corresponding fields.
+Create a new message in a chat stream, new messages will be pushed to connected clients. If a link is detected in the message then it will be parsed and appropriate attachments will be automatically generated - for example a link to a youtube video would generate an attachment of type 'Video' with corresponding fields.
 
 ### Request
 <div class="request">
@@ -28,9 +28,9 @@ Create a new message in an individual room, new messages will be pushed to conne
         <td>Whether links in the message should be converted to rich attachments</td>
     </tr>
     <tr>
-        <td>room_id</td>
+        <td>stream_id</td>
         <td>required</td>
-        <td>The id of the room to post the message to</td>
+        <td>The id of the stream to post the message into</td>
     </tr>
 </table>
 
@@ -97,7 +97,7 @@ m.save
 
 ## Remove a Message
 
-Removes the specified message from the room, so that conversation flow is preserved the message will be replaced with a _"This message has been removed"_ note in the stream.
+Removes the specified message from the stream. So that conversation flow is preserved the message will be replaced with a _"This message has been removed"_ note in the stream.
 
 ### Request
 <div class="request">
@@ -121,7 +121,7 @@ m.delete
 
 ## List all Messages
 
-Returns all messages in the current organization across all rooms. The messages are returned in reverse date order 
+Returns all messages in the current organization across all streams. The messages are returned in reverse date order 
 by default.
 
 ### Request

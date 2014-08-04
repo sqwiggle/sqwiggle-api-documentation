@@ -14,14 +14,14 @@ A user object represents a single person on your organizations team.
         <td>user, owner, manager or banned</td>
     </tr>
     <tr>
-        <td>media</td>
-        <td>hash</td>
-        <td>An object containing audio, video and screen boolean values</td>
+        <td>media_device_id</td>
+        <td>string</td>
+        <td>A string representing current device that media is being received on</td>
     </tr>
     <tr>
         <td>status</td>
         <td>enum</td>
-        <td>busy, privacy, available, away, offline</td>
+        <td>busy, available</td>
     </tr>
     <tr>
         <td>message</td>
@@ -37,6 +37,21 @@ A user object represents a single person on your organizations team.
         <td>email</td>
         <td>string</td>
         <td>The users email address</td>
+    </tr>
+    <tr>
+        <td>avatar</td>
+        <td>string</td>
+        <td>URL to a static avatar for the user</td>
+    </tr>
+    <tr>
+        <td>snapshot</td>
+        <td>string</td>
+        <td>URL to the last snapshot for this user (auto or manual)</td>
+    </tr>
+    <tr>
+        <td>snapshot_interval</td>
+        <td>integer</td>
+        <td>Frequency at which automatic snapshots are taken when the app is open</td>
     </tr>
     <tr>
         <td>confirmed</td>
@@ -68,11 +83,6 @@ A user object represents a single person on your organizations team.
         <td>datetime</td>
         <td>The time this users current online session started</td>
     </tr>
-    <tr>
-        <td>avatar</td>
-        <td>string</td>
-        <td>URL to a static avatar for the user</td>
-    </tr>
 </table>
 
 ## Example
@@ -81,19 +91,17 @@ A user object represents a single person on your organizations team.
         "id": 1234,
         "role": "user",
         "name": "John Doe",
-        "media": {
-            "audio": true,
-            "video": true,
-            "screen": false
-        },
-        "status": "available",
-        "message": "",
-        "email": "john.doe@gmail.com",
+        "media_device_id": "53d4bb00-f25f-6322-4176-a35aed5a12a5",
+        "status": "busy",
+        "message": "In a meeting",
+        "email": "john.doe@gmail.com",,
+        "avatar": "http://sqwiggle-photos.amazonaws.com/images/avatar.jpg",
+        "snapshot": "http://sqwiggle-photos.amazonaws.com/images/snapshot.jpg",
+        "snapshot_interval": 60,
         "confirmed": true,
         "time_zone": "America/New_York",
         "time_zone_offset": 5.0,
         "created_at": "2013-01-01T03:18:33Z",
         "last_connected_at": "2013-07-20T20:10:33Z",
-        "last_active_at": "2013-07-20T20:18:33Z",
-        "avatar": "http://sqwiggle-photos.amazonaws.com/images/avatar.jpg"
+        "last_active_at": "2013-07-20T20:18:33Z"
     }
