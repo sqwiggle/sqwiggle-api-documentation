@@ -14,9 +14,9 @@ A user object represents a single person on your organizations team.
         <td>user, owner, manager or banned</td>
     </tr>
     <tr>
-        <td>media</td>
-        <td>hash</td>
-        <td>An object containing audio, video and screen device identifiers</td>
+        <td>media_device_id</td>
+        <td>string</td>
+        <td>A string representing current device that media is being received on</td>
     </tr>
     <tr>
         <td>status</td>
@@ -91,11 +91,7 @@ A user object represents a single person on your organizations team.
         "id": 1234,
         "role": "user",
         "name": "John Doe",
-        "media": {
-            "audio": "53d4bb00-f25f-6322-4176-a35aed5a12a5",
-            "video": "53d4bb00-f25f-6322-4176-a35aed5a12a5",
-            "screen": null
-        },
+        "media_device_id": "53d4bb00-f25f-6322-4176-a35aed5a12a5",
         "status": "busy",
         "message": "In a meeting",
         "email": "john.doe@gmail.com",,
