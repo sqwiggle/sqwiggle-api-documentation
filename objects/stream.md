@@ -1,4 +1,4 @@
-# Room
+# Stream
 A stream represents a single group chat in which messages can be exchanged within Sqwiggle.
 
 ## Attributes
@@ -36,12 +36,12 @@ A stream represents a single group chat in which messages can be exchanged withi
     <tr>
         <td>subscribed</td>
         <td>boolean</td>
-        <td>Whether the user receives notifications for this room</td>
+        <td>Whether the user receives notifications for this stream</td>
     </tr>
     <tr>
         <td>created_at</td>
         <td>datetime</td>
-        <td>The time that this room was created</td>
+        <td>The time that this stream was created</td>
     </tr>
 </table>
 
