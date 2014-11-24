@@ -11,7 +11,7 @@ by off-the-shelf HTTP clients.
 
 ## Clients
 In order to use the Sqwiggle API you'll first need to create a client and generate a token, you can do
-so here: [https://www.sqwiggle.com/company/clients](https://www.sqwiggle.com/company/clients).
+so here: [https://www.sqwiggle.com/clients](https://www.sqwiggle.com/clients).
 
 ## Endpoints
 All API requests are made to **https://api.sqwiggle.com/** and all requests are served over HTTPS.
