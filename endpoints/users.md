@@ -1,6 +1,6 @@
 # Users
 
-## <a name="retrieveauser"></a>Retrieve a User
+## Retrieve a User
 
 Retrieves the details of any user that the token has access to. Supply a user ID and Sqwiggle will return 
 the corresponding user profile information. You may pass 'me' instead of a user id to get information for
@@ -15,7 +15,7 @@ the current token.
 </div>
 
 
-## <a name="updateauser"></a>Update a User
+## Update a User
 
 Updates the specified user by setting the values of the parameters passed. Any parameters not provided 
 will be left unchanged, unrecognised parameters will result in the request returning an error response.
@@ -73,12 +73,12 @@ will be left unchanged, unrecognised parameters will result in the request retur
     </tr>
 </table>
 
-## <a name="removeauser"></a>Remove a User
+## Remove a User
 
 This endpoint is not currently accessible by API clients.
 
 
-## <a name="listallusers"></a>List all Users
+## List all Users
 
 Returns a list of all users in the current organization. The users are returned in sorted alphabetical order 
 by default.
