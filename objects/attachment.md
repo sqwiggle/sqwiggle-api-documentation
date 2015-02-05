@@ -34,11 +34,6 @@ An attachment object is a piece of media that belongs to a message, it may repre
         <td>URL of an image representing the attachment, this may not reside on Sqwiggle's servers</td>
     </tr>
     <tr>
-        <td>url</td>
-        <td>string</td>
-        <td>The location at whih the attachment resides</td>
-    </tr>
-    <tr>
         <td>status</td>
         <td>string</td>
         <td>If an upload, denotes the uploade status ('pending' or 'uplodaed')</td>
