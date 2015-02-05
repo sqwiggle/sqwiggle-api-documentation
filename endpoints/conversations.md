@@ -1,6 +1,6 @@
 # Conversations
 
-## <a name="retrieveaconversation"></a>Retrieve a Conversation
+## Retrieve a Conversation
 
 Retrieves the details of a specific conversation provided it is accessible via the provided token.
 
@@ -20,7 +20,7 @@ Retrieves the details of a specific conversation provided it is accessible via t
     </tr>
 </table>
 
-## <a name="listallconversations"></a>List all Conversations
+## List all Conversations
 
 Returns a list of all conversations within the organization associated with the provided token. This includes both finished and ongoing. 
 
