@@ -1,6 +1,6 @@
 # Organizations
 
-## Retrieve an Organization
+## <a name="retrieveanorganization"></a>Retrieve an Organization
 
 Retrieves the details of any organization that the token has access to. At this time each user can only belong to a single organization and all API requests are scoped by a single organization.
 
@@ -21,7 +21,7 @@ Retrieves the details of any organization that the token has access to. At this 
 </table>
 
 
-## Update an Organization
+## <a name="updateanorganization"></a>Update an Organization
 
 Updates the specified organization by setting the values of the parameters passed. At this time the only parameter that can be changed is the organization name, paths will be automatically generated.
 
@@ -51,7 +51,7 @@ o.save
 </table>
 
 
-## List all Organizations
+## <a name="listallorganizations"></a>List all Organizations
 
 Returns a list of all organizations the current token has access to. At this time each user can only belong to a single organization and all API requests are scoped by a single organization.
 
