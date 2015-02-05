@@ -1,7 +1,7 @@
 # Info
 General information in this namespace is generally used by the official Sqwiggle clients in order to function and update themselves.
 
-## Retrieve 
+## <a name="retrieve"></a>Retrieve 
 Returns the configuration and version details in a single request.
 
 ### Request

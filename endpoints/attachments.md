@@ -1,6 +1,6 @@
 # Attachments
 
-## Retrieve an Attachment
+## <a name="retrieveanattachment"></a>Retrieve an Attachment
 
 Retrieves the details of a message attachment. There are many different types of attachments and each type may return different fields in the response.
 
@@ -21,7 +21,7 @@ Retrieves the details of a message attachment. There are many different types of
 </table>
 
 
-## Update an Attachment
+## <a name="updateanattachment"></a>Update an Attachment
 
 Updates the specified attachment by setting the values of the parameters passed. Note that changes made via the API will be immediately reflected in the interface of all connected clients.
 
@@ -71,7 +71,7 @@ a.save
 </table>
 
 
-## Remove an Attachment
+## <a name="removeanattachment"></a>Remove an Attachment
 
 Removes the specified attachment from the parent message. If this is the only attachment in the message then the parent message will
 also be removed.
@@ -96,7 +96,7 @@ a.delete
 </table>
 
 
-## List all Attachments
+## <a name="listallattachments"></a>List all Attachments
 
 Returns a list of all attachments in the current organization. The attachments are returned in reverse date order 
 by default.

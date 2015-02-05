@@ -1,6 +1,6 @@
 # Invites
 
-## Create an Invite
+## <a name="createaninvite"></a>Create an Invite
 
 When an invite is created an email is automatically sent to the recipients address asking them to join your organization. Please bear this in mind when creating invites for test purposes, abuse of this API may result 
 in your account becoming blocked. 
@@ -22,7 +22,7 @@ in your account becoming blocked.
 </table>
 
 
-## Retrieve an Invite
+## <a name="retrieveaninvite"></a>Retrieve an Invite
 
 Retrieves the details of any invite that has been previously created. Supply an invite ID to get details of
 the invite.
@@ -44,7 +44,7 @@ the invite.
 </table>
 
 
-## Remove an Invite
+## <a name="removeaninvite"></a>Remove an Invite
 
 Removes the specified invite from the organization. This will result in the invite no longer working should the recipient click on the link contained in the invite email.
 
@@ -68,7 +68,7 @@ i.delete
 </table>
 
 
-## List all Invites
+## <a name="listallinvites"></a>List all Invites
 
 Returns a list of all outstanging invites in the current organization.
 by default.

@@ -1,6 +1,6 @@
 # Messages
 
-## Create a Message
+## <a name="createamessage"></a>Create a Message
 
 Create a new message in a chat stream, new messages will be pushed to connected clients. If a link is detected in the message then it will be parsed and appropriate attachments will be automatically generated - for example a link to a youtube video would generate an attachment of type 'Video' with corresponding fields.
 
@@ -44,7 +44,7 @@ You can also "@mention" a user by including a specially formatted string in the 
 
 
 
-## Retrieve a Message
+## <a name="retrieveamessage"></a>Retrieve a Message
 
 Retrieves the details of a message and any nested attachments.
 
@@ -65,7 +65,7 @@ Retrieves the details of a message and any nested attachments.
 </table>
 
 
-## Update a Message
+## <a name="updateamessage"></a>Update a Message
 
 Updates the specified message by setting the values of the parameters passed. Note that changes made via the API will be immediately reflected in the interface of all connected clients.
 
@@ -95,7 +95,7 @@ m.save
 </table>
 
 
-## Remove a Message
+## <a name="removeamessage"></a>Remove a Message
 
 Removes the specified message from the stream. So that conversation flow is preserved the message will be replaced with a _"This message has been removed"_ note in the stream.
 
@@ -119,7 +119,7 @@ m.delete
 </table>
 
 
-## List all Messages
+## <a name="listallmessages"></a>List all Messages
 
 Returns all messages in the current organization across all streams. The messages are returned in reverse date order 
 by default.

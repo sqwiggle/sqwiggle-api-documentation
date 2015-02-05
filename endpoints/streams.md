@@ -1,6 +1,6 @@
 # Streams
 
-## Create a Stream
+## <a name="createastream"></a>Create a Stream
 
 Streams can be created from the app interfaces, or programatically via the API. We currently have no restrictions on the number of chat streams you can create within an organization.
 
@@ -21,7 +21,7 @@ Streams can be created from the app interfaces, or programatically via the API. 
 </table>
 
 
-## Retrieve a Stream
+## <a name="retrieveastream"></a>Retrieve a Stream
 
 Retrieves the details of any stream that the token has access to. Supply an ID and Sqwiggle will return 
 the corresponding chat stream object.
@@ -34,7 +34,7 @@ the corresponding chat stream object.
 </div>
 
 
-## Update a Stream
+## <a name="updateastream"></a>Update a Stream
 
 Updates the specified stream by setting the values of the parameters passed. At this time the only parameter
 that can be changed is the name, paths will be automatically generated.
@@ -63,7 +63,7 @@ that can be changed is the name, paths will be automatically generated.
 </table>
 
 
-## Remove a Stream
+## <a name="removeastream"></a>Remove a Stream
 
 Removes the chat stream from the organisation.
 
@@ -76,7 +76,7 @@ Removes the chat stream from the organisation.
 </div>
 
 
-## List all Streams
+## <a name="listallstreams"></a>List all Streams
 
 Returns a list of all streams in the current organization. The streams are returned in sorted alphabetical order 
 by default.
