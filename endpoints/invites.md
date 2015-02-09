@@ -71,7 +71,6 @@ i.delete
 ## List all Invites
 
 Returns a list of all outstanging invites in the current organization.
-by default.
 
 ### Request
 <div class="request">
